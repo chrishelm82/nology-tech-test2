@@ -24,13 +24,13 @@ function App() {
           Get Pokemon
         </button>
       </div>
-      <ol className="ol">
-        {pokemons.map(({ name, key }) => (
-          <li className="li" key={key}>
+      <ul className="ul">
+        {pokemons.map(({ name, url }) => (
+          <li className="li" key={url}>
             {name}
           </li>
         ))}
-      </ol>
+      </ul>
     </div>
   );
 }

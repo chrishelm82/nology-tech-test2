@@ -14,13 +14,14 @@
   background-color: #a8e5f5;
   cursor: pointer;
 }
-.ol {
+.ul {
   display:inline-block;
 }
 .li {
   background-color: white;
-  border: 1px solid #a8e5f5;
-  color: rgb(195, 239, 182);
+  border: 1px solid #4435ed;
+  border-radius: 8px;
+  color: rgb(29, 20, 154);
   font-size: 30px;
   max-width: 300px;
 }
