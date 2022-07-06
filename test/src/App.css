@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background-image: url("/public/images/pokemon.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: ceneter;
+  height: 100vh;
+}
+
+.button {
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  background-color: #a8e5f5;
+  cursor: pointer;
+}
+.ol {
+  display:inline-block;
+}
+.li {
+  background-color: white;
+  border: 1px solid #a8e5f5;
+  color: rgb(195, 239, 182);
+  font-size: 30px;
+  max-width: 300px;
+}
+.text {
+  color: red;
+}
