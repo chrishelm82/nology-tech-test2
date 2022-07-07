@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: ceneter;
-  height: 100vh;
+  height: 6500px;
 }
 
 .button {
@@ -14,14 +14,14 @@
   background-color: #a8e5f5;
   cursor: pointer;
 }
-.ul {
+.ol {
   display:inline-block;
 }
 .li {
-  background-color: white;
+  background-color: rgb(12, 12, 1);
   border: 1px solid #4435ed;
   border-radius: 8px;
-  color: rgb(29, 20, 154);
+  color: rgb(240, 244, 16);
   font-size: 30px;
   max-width: 300px;
 }

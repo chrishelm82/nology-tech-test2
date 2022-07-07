@@ -1,13 +1,14 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
 
+  // By changing the url limit number, you can change the pokemons that are displayed. Bulbasaur is the first pokemon in the list.
   const getPokemon = () => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://pokeapi.co/api/v2/pokemon?limit=5"
+        "https://pokeapi.co/api/v2/pokemon?limit=150"
       );
       const data = await response.json();
       console.log(data);
@@ -24,13 +25,13 @@ function App() {
           Get Pokemon
         </button>
       </div>
-      <ul className="ul">
+      <ol className="ol">
         {pokemons.map(({ name, url }) => (
           <li className="li" key={url}>
             {name}
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }
